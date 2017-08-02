@@ -1,7 +1,7 @@
 Docker MySQL image
 =====================
 
-From mysql image
+From `mariadb:10.1` image
 
 ## Build image
 
@@ -14,6 +14,6 @@ docker build -t chaplean/mysql .
 You need to make `docker login` first
 
 ```
-docker tag chaplean/mysql chaplean/mysql:latest
+docker tag chaplean/mysql chaplean/mysql:VERSION
 docker push chaplean/mysql
 ```
